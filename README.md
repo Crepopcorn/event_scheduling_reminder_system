@@ -1,18 +1,52 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Event Scheduling and Reminder System
 
-## Folder Structure
+## Overview
+The **Event Scheduling and Reminder System** is a Java application designed to help users manage their tasks, appointments, and important deadlines. With this app, users can set up reminders, schedule events, and get notified before deadlines or appointments. It’s a simple, effective tool for managing your daily tasks and keeping track of important dates.
 
-The workspace contains two folders by default, where:
+## Features
+- **Schedule Events**: Add appointments, deadlines, and tasks to your calendar.
+- **Set Reminders**: Receive notifications before an event starts or a task is due.
+- **Event Management**: Search, update, or delete scheduled events easily.
+- **Data Persistence**: All event data is stored in a SQLite database.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tools & Technologies
+- **Programming Language**: Java
+- **GUI**: AWT (Abstract Window Toolkit)
+- **Database**: SQLite
+- **Notifications**: Java Notification APIs
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/event-scheduling-reminder-system.git
+   ```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. Make sure SQLite is installed and properly configured on your machine.
 
-## Dependency Management
+3. Open the `DatabaseConnection.java` file and ensure the SQLite database path is correct.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+4. Create the necessary table in the SQLite database using the following SQL command:
+   ```sql
+   CREATE TABLE events (
+       id INTEGER PRIMARY KEY AUTOINCREMENT,
+       event_name VARCHAR(100),
+       event_date DATE,
+       reminder_time TIME
+   );
+   ```
+
+5. Open the project in your preferred IDE (like VS Code or IntelliJ), and run the `Main.java` file to start the app.
+
+## Requirements
+- Java 8 or above
+- SQLite Database
+- Java Notification APIs for setting reminders
+
+## Future Enhancements
+- **Recurring Events**: Add support for scheduling recurring tasks.
+- **Improved Notifications**: Include desktop notifications or email reminders.
+- **Integration with Calendars**: Sync events with Google Calendar or other calendar platforms.
+
+## Contributing
+Feel free to fork the project, submit issues, or open pull requests. Contributions are welcome!
