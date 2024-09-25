@@ -33,7 +33,7 @@ The **Event Scheduling Reminder System** is a Java application designed to help 
     event_name VARCHAR(100),
     event_date DATE,
     reminder_time TIME
-);
+   );
    ```
 
 5. Open the project in your preferred IDE (like VS Code or IntelliJ), and run the `Main.java` file to start the app.
