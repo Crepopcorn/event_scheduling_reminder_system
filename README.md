@@ -4,6 +4,9 @@
 ## Overview
 The **Event Scheduling Reminder System** is a Java application designed to help users manage their tasks, appointments, and important deadlines. With this app, users can set up reminders, schedule events, and get notified before deadlines or appointments.
 
+## Layout
+![login_page](https://github.com/Crepopcorn/event_scheduling_reminder_system/blob/main/layout-time.jpg)
+
 ## Features
 - **Schedule Events**: Add appointments, deadlines, and tasks to your calendar.
 - **Set Reminders**: Receive notifications before an event starts or a task is due.
