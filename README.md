@@ -29,11 +29,11 @@ The **Event Scheduling Reminder System** is a Java application designed to help 
 4. Create the necessary table in the SQLite database using the following SQL command:
    ```sql
    CREATE TABLE events (
-       id INTEGER PRIMARY KEY AUTOINCREMENT,
-       event_name VARCHAR(100),
-       event_date DATE,
-       reminder_time TIME
-   );
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    event_name VARCHAR(100),
+    event_date DATE,
+    reminder_time TIME
+);
    ```
 
 5. Open the project in your preferred IDE (like VS Code or IntelliJ), and run the `Main.java` file to start the app.
