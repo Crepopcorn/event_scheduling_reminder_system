@@ -26,7 +26,7 @@ The **Event Scheduling Reminder System** is a Java application designed to help 
 
 3. Open the `DatabaseConnection.java` file and ensure the SQLite database path is correct.
 
-4. Create the necessary table in the SQLite database using the following SQL command:
+4. Create the necessary table in the SQLite/Mysql database using the following SQL command (mysql for example):
    ```sql
    CREATE TABLE events (
     id INT AUTO_INCREMENT PRIMARY KEY,
