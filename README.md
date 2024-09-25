@@ -13,7 +13,7 @@ The **Event Scheduling Reminder System** is a Java application designed to help 
 ## Tools & Technologies
 - **Programming Language**: Java
 - **GUI**: AWT (Abstract Window Toolkit)
-- **Database**: SQLite
+- **Database**: MYSQL
 - **Notifications**: Java Notification APIs
 
 ## How to Run
@@ -22,7 +22,7 @@ The **Event Scheduling Reminder System** is a Java application designed to help 
    git clone https://github.com/crepopcorn/event-scheduling-reminder-system.git
    ```
 
-2. Make sure SQLite is installed and properly configured on your machine.
+2. Make sure SQLite/Mysql is installed and properly configured on your machine.
 
 3. Open the `DatabaseConnection.java` file and ensure the SQLite database path is correct.
 
@@ -40,11 +40,7 @@ The **Event Scheduling Reminder System** is a Java application designed to help 
 
 ## Requirements
 - Java 8 or above
-- SQLite Database
+- SQLite/MySQL Database
 - Java Notification APIs for setting reminders
 
-## Future Enhancements
-- **Recurring Events**: Add support for scheduling recurring tasks.
-- **Improved Notifications**: Include desktop notifications or email reminders.
-- **Integration with Calendars**: Sync events with Google Calendar or other calendar platforms.
 
