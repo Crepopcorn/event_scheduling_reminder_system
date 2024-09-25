@@ -1,8 +1,8 @@
 
-# Event Scheduling and Reminder System
+# Event Scheduling Reminder System
 
 ## Overview
-The **Event Scheduling and Reminder System** is a Java application designed to help users manage their tasks, appointments, and important deadlines. With this app, users can set up reminders, schedule events, and get notified before deadlines or appointments. It’s a simple, effective tool for managing your daily tasks and keeping track of important dates.
+The **Event Scheduling Reminder System** is a Java application designed to help users manage their tasks, appointments, and important deadlines. With this app, users can set up reminders, schedule events, and get notified before deadlines or appointments.
 
 ## Features
 - **Schedule Events**: Add appointments, deadlines, and tasks to your calendar.
@@ -19,7 +19,7 @@ The **Event Scheduling and Reminder System** is a Java application designed to h
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/event-scheduling-reminder-system.git
+   git clone https://github.com/crepopcorn/event-scheduling-reminder-system.git
    ```
 
 2. Make sure SQLite is installed and properly configured on your machine.
@@ -48,5 +48,3 @@ The **Event Scheduling and Reminder System** is a Java application designed to h
 - **Improved Notifications**: Include desktop notifications or email reminders.
 - **Integration with Calendars**: Sync events with Google Calendar or other calendar platforms.
 
-## Contributing
-Feel free to fork the project, submit issues, or open pull requests. Contributions are welcome!
